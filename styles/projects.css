@@ -1,0 +1,75 @@
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Itro-Trial-Md.otf);
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Intro-Trial-Bd.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Intro-Trial-Bk.otf);
+    font-weight: 900;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.nav li{
+    display: inline;
+
+}
+
+.nav a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #4B4B4B;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav a:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+}
+
+.home{
+    background-color: #3AB0FF;
+}
+.projects{
+    background-color: #FFB562;
+}
+.skills{
+    background-color: #F87474;
+}
+.resume{
+    background-color: #20D8A4;
+}
+
+body{
+    font-family: Intro-Trial;
+    background-color: #FFB562;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body h1{
+    color: #F9F2ED;
+    font-size: 7rem;
+    text-align: center;
+    
+}

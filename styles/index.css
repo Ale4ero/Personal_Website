@@ -1,0 +1,321 @@
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Itro-Trial-Md.otf);
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Intro-Trial-Bd.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: Intro-Trial;
+    src: url(Intro-Trial-Bk.otf);
+    font-weight: 900;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Intro-Trial;
+    background-color: #F9F2ED;
+    margin: 0;
+    padding: 0;
+    
+}
+body h1{
+    font-weight: 900;
+    color: #F87474;
+    font-size: 6vw;
+    margin-bottom: 0;
+}
+
+body h2{
+    font-weight: 400;
+    color: #4B4B4B;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6vw;
+}
+
+section{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible; 
+    /* border: red 1px solid; */
+}
+
+
+
+.nav{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #4B4B4B;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.nav a:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+}
+
+.home{
+    background-color: #3AB0FF;
+}
+.projects{
+    background-color: #FFB562;
+}
+.skills{
+    background-color: #F87474;
+}
+.resume{
+    background-color: #20D8A4;
+}
+
+.links li{
+    display: inline;
+}
+
+.links a{
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.mid{
+    width: 54%;
+    height: 470px;
+    margin-top: 12em;
+    margin-right: 5em;
+    margin-left: 4em;
+}
+
+.one{
+    width: 165px;
+    right: 60px;
+    bottom: 765px;
+    /* border: red 1px solid; */
+}
+
+.two{
+    width: 285px;
+    height: 765px;
+    right:20px;
+    bottom: 0px;
+    /* border: blue 1px solid; */
+}
+.three{
+    width: 355px;
+    height: 615px;
+    right:305px;
+    bottom: 0px;
+    /* border:#FFB562 1px solid; */
+}
+
+.four{
+    width: 255px;
+    height: 200px;
+    right: 660px;
+    bottom: 0px;
+    /* border: hotpink 1px solid; */
+}
+
+.five{
+    width: 100px;
+    height: 110px;
+    right: 915px;
+    bottom: 0px;
+    /* border: yellow 1px solid; */
+}
+
+.six{
+    width: 270px;
+    height: 60px;
+    right: 305px;
+    bottom: 615px;
+    /* border: aquamarine 1px solid; */
+}
+.water{
+    background-image: url(/svg/water.svg);
+    width: 1025px;
+    height: 824px;
+    position:fixed;
+    bottom: 0px;
+    right: 0px;
+    overflow: visible;
+    /* border: purple 1px solid; */
+}
+
+.pads{
+    width: 731px;
+    height: 612px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    /* border: green 1px solid; */
+}
+
+.pad1{
+    background-image: url(/svg/pad_1.svg);
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    top: 480px;
+    left: 0;
+}
+
+.pad2{
+    background-image: url(/svg/pad_1.svg);
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    top: 270px;
+    left: 200px;
+    transform: rotate(-50deg);
+}
+
+.pad3{
+    background-image: url(/svg/pad_1.svg);
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    transform: rotate(50deg);
+}
+
+.pad4{
+    background-image: url(/svg/pad_1.svg);
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    top: 260px;
+    left: 570px;
+    transform: rotate(150deg);
+}
+
+.pad5{
+    background-image: url(/svg/pad_1.svg);
+    width: 133px;
+    height: 128px;
+    position: absolute;
+    top: 430px;
+    left: 360px;
+    transform: rotate(150deg);
+}
+
+
+.frog{
+    background-image: url(/svg/frog.svg);
+    transform: rotate(50deg);
+    width: 59px;
+    height: 62px;
+    position: absolute;
+    top: 520px;
+    left: 30px;
+    
+}
+
+span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ccff50;
+    transform: scale(0.01);
+    box-shadow: 0 0 10px #00b5fd5b,
+                0 0 20px #00d0ff67,
+                0 0 40px #00d0ff57,
+                0 0 60px #00ccff8e,
+                0 0 80px #00ccffde,
+                0 0 120px #044d91;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 2s;
+}
+
+span:hover::before{
+    
+    transform: scale(1);
+    transition: 0s;
+}
+
+
+@media screen and (max-width: 1800px) {
+
+    .water{
+        width: 872px;
+        height: 701px;
+    }
+
+    .pads{
+        bottom: 10px;
+        right: 0;
+    }
+
+    .one{
+        bottom: 620px;
+    }
+    
+    .two{
+        height: 620px;
+    }
+    .three{
+        width: 240px;
+        height: 490px;
+    }
+    
+    .four{
+        width: 150px;
+        right: 550px;
+    }
+    
+    .five{
+        height: 130px;
+        right: 715px;
+    }
+    
+    .six{
+        width: 200px;
+        bottom: 490px;
+    }
+}
+
+
+
+
+
+

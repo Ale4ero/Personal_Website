@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1054" height="382" viewBox="0 0 1054 382">
+  <g id="Group_6" data-name="Group 6" transform="translate(-370 -560)">
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="1054" height="52" transform="translate(370 560)" fill="#707070"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="925" height="52" transform="translate(370 626)" fill="#707070"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="925" height="52" transform="translate(370 692)" fill="#707070"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="779" height="52" transform="translate(370 758)" fill="#707070"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="779" height="52" transform="translate(370 824)" fill="#707070"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" width="779" height="52" transform="translate(370 890)" fill="#707070"/>
+    <text id="Java" transform="translate(393 597)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">Java</tspan></text>
+    <text id="C" transform="translate(393 663)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">C</tspan></text>
+    <text id="Javascript" transform="translate(393 729)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">Javascript</tspan></text>
+    <text id="C_" data-name="C++" transform="translate(393 795)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">C</tspan><tspan y="0" font-family="Montserrat-Regular, Montserrat">++</tspan></text>
+    <text id="Python" transform="translate(393 861)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">Python</tspan></text>
+    <text id="HTML" transform="translate(393 927)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">HTML</tspan></text>
+    <text id="_80" data-name="80" transform="translate(1353 597)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">80</tspan></text>
+    <text id="_75" data-name="75" transform="translate(1224 663)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">75</tspan></text>
+    <text id="_75-2" data-name="75" transform="translate(1224 729)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">75</tspan></text>
+    <text id="_60" data-name="60" transform="translate(1086 795)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">60</tspan></text>
+    <text id="_60-2" data-name="60" transform="translate(1086 861)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">60</tspan></text>
+    <text id="_60-3" data-name="60" transform="translate(1086 927)" fill="#fff" font-size="33" font-family="Intro-Trial-Bk, Intro-Trial"><tspan x="0" y="0">60</tspan></text>
+  </g>
+</svg>
