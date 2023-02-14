@@ -1,18 +1,18 @@
 @font-face{
     font-family: Intro-Trial;
-    src: url(Itro-Trial-Md.otf);
+    src: url(../Fonts/Intro-Trial-Md.otf);
     font-weight: 200;
 }
 
 @font-face{
     font-family: Intro-Trial;
-    src: url(Intro-Trial-Bd.otf);
+    src: url(../Fonts/Intro-Trial-Bd.otf);
     font-weight: bold;
 }
 
 @font-face{
     font-family: Intro-Trial;
-    src: url(Intro-Trial-Bk.otf);
+    src: url(../Fonts/Intro-Trial-Bk.otf);
     font-weight: 900;
 }
 
