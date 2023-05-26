@@ -1,6 +1,7 @@
 
 *{
     box-sizing: border-box;
+    font-size: 'Sen', sans-serif;
 }
 
 .pageTitle{
@@ -180,7 +181,7 @@ section{
     /* border: aquamarine 1px solid; */
 }
 .water{
-    background-image: url(./svg/full_lake\(2\).png);
+    background-image: url(../svg/water.svg);
     width: 1020px;
     height: 820px;
     position:fixed;
@@ -199,7 +200,7 @@ section{
 }
 
 .pad1{
-    background-image: url(./svg/pad_1.svg);
+    background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
     position: absolute;
@@ -208,7 +209,7 @@ section{
 }
 
 .pad2{
-    background-image: url(./svg/pad_1.svg);
+    background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
     position: absolute;
@@ -218,7 +219,7 @@ section{
 }
 
 .pad3{
-    background-image: url(./svg/pad_1.svg);
+    background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
     position: absolute;
@@ -228,7 +229,7 @@ section{
 }
 
 .pad4{
-    background-image: url(./svg/pad_1.svg);
+    background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
     position: absolute;
@@ -238,7 +239,7 @@ section{
 }
 
 .pad5{
-    background-image: url(./svg/pad_1.svg);
+    background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
     position: absolute;
@@ -249,7 +250,7 @@ section{
 
 
 .frog{
-    background-image: url(./svg/frog.svg);
+    background-image: url(../svg/frog.svg);
     transform: rotate(50deg);
     width: 59px;
     height: 62px;
