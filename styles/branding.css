@@ -1,0 +1,78 @@
+*{
+    font-family: 'Changa', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html::-webkit-scrollbar{
+    width: .7rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #b1afaf;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+
+}
+
+.pageTitle{
+    position:absolute;
+    right: 120px;
+    top: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color .4s;
+    color: black;
+}
+
+.pageTitle:hover{
+    cursor: pointer;
+    color: #F87474;
+}
+
+.backButton{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    transition: .3s;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.backButton:hover{
+    color: #F87474;
+}
+
+.pageCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.row{
+    display: flex;
+    gap: 100px;
+}

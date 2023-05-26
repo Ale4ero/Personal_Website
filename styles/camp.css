@@ -1,0 +1,82 @@
+*{
+    font-family: 'Changa', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html::-webkit-scrollbar{
+    width: .7rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #b1afaf;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    /* background-color: #326E33; */
+    /* background-color: #1e7d8d; */
+    background-color: #FDAF1D;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+
+}
+
+.pageTitle{
+    position:absolute;
+    right: 120px;
+    top: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color .4s;
+    color: #F1E0A4;
+}
+
+.pageTitle:hover{
+    cursor: pointer;
+    color: #F87474;
+}
+
+.backButton{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    transition: .3s;
+    color: #F1E0A4;
+    font-size: 1.2rem;
+}
+
+.backButton:hover{
+    color: #F87474;
+}
+
+.pageContainer{
+    position: relative;
+    /* background-color: #F87474; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    margin-bottom: 200px;
+}
+
+.pageContainer img{
+    width: 650px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}

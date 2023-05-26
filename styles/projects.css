@@ -1,19 +1,48 @@
 @font-face{
     font-family: Intro-Trial;
-    src: url(Itro-Trial-Md.otf);
+    src: url(../Fonts/Intro-Trial-Md.otf);
     font-weight: 200;
 }
 
 @font-face{
     font-family: Intro-Trial;
-    src: url(Intro-Trial-Bd.otf);
+    src: url(../Fonts/Intro-Trial-Bd.otf);
     font-weight: bold;
 }
 
 @font-face{
     font-family: Intro-Trial;
-    src: url(Intro-Trial-Bk.otf);
+    src: url(../Fonts/Intro-Trial-Bk.otf);
     font-weight: 900;
+}
+
+html::-webkit-scrollbar{
+    width: .7rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #e7e5e5;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: none;
+}
+a{
+    text-decoration: none;
+    color: #4B4B4B;
+}
+.pageTitle{
+    position:fixed;
+    left: 20px;
+    top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color .4s;
+}
+
+.pageTitle:hover{
+    cursor: pointer;
+    color: #F87474;
 }
 
 .nav{
@@ -56,20 +85,204 @@
     background-color: #F87474;
 }
 .resume{
-    background-color: #20D8A4;
+    background-color: #F87474;
 }
 
 body{
-    font-family: Intro-Trial;
+    font-family: 'Sen', sans-serif;
     background-color: #FFB562;
     margin: 0;
     padding: 0;
     
 }
 
+
 body h1{
     color: #F9F2ED;
-    font-size: 7rem;
+    font-size: 11rem;
     text-align: center;
+    font-weight: 900;
+    
+}
+
+.title{
+    position: relative;
+    color: #F9F2ED;
+    text-align: center;
+    font-size: 11rem;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.projectContainer{
+    /* background-color: #20D8A4; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    width: 800px;
+    /* background-color: #20D8A4; */
+    margin: 150px auto;
+}
+
+.projectItem{
+    /* background-color: #20D8A4; */
+    height: auto;
+    color: #F9F2ED;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.projectItem:hover{
+    scale: 1.2;
+    /* background: #4B4B4B; */
+    align-items: flex-start;
+    transition-duration: .5s;
+}
+
+.shipImg{
+    position: absolute;
+    width: 140px;
+    top: 70px;
+    transition: transform 1s, opacity 1s;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.projectItem:hover .projectDescription{
+    visibility: visible;
+    opacity: 1;
+}
+.projectItem:hover .projectRole{
+    visibility: visible;
+    opacity: 1;
+}
+
+.projectItem:hover .shipImg{
+    /* display: block; */
+    transform: translateY(-110px);
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.descCont{
+    display: flex;
+}
+
+.projectDescription{
+    color: #4B4B4B;
+    font-size: 15px;
+    position: absolute;
+    left: 40px;
+    top: 70px;
+    visibility:hidden;
+    opacity: 0;
+    
+    transition: opacity 1s;
+}
+
+.projectRole{
+    color: #4B4B4B;
+    font-size: 15px;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+    visibility:hidden;
+    opacity: 0;
+    
+    transition: opacity 1s;
+}
+
+.pockChange{
+    position: absolute;
+    width: 150px;
+    top: 70px;
+    transition: transform 1s, opacity 1s;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.projectItem:hover .pockChange{
+    /* display: block; */
+    transform: translateY(-210px);
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.projectLogo{
+    width: 500px;
+    
+}
+
+
+
+.projectItem:hover{
+    cursor: pointer;
+}
+
+.campTitle{
+    font-family: 'Changa One', cursive;
+    flex-basis: 100%;
+}
+
+.campImg{
+    position: absolute;
+    width: 240px;
+    top: 40px;
+    transition: transform 1s, opacity 1s;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.projectItem:hover .campImg{
+    /* display: block; */
+    transform: translateY(-110px);
+    visibility: visible;
+    opacity: 1;
+    
+}
+
+.brandImg{
+    position: absolute;
+    width: 200px;
+    top: 40px;
+    transition: transform 1s, opacity 1s;
+    visibility: hidden;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.projectItem:hover .brandImg{
+    /* display: block; */
+    transform: translateY(-90px);
+    visibility: visible;
+    opacity: 1;
     
 }

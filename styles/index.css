@@ -22,8 +22,35 @@
     box-sizing: border-box;
 }
 
+.pageTitle{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: color .4s;
+}
+
+.pageTitle:hover{
+    cursor: pointer;
+    color: #F87474;
+}
+
+html::-webkit-scrollbar{
+    width: .7rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #4B4B4B;
+    border-radius: 10px;
+}
+html::-webkit-scrollbar-track{
+    background-color: #F9F2ED;
+}
+
 body{
-    font-family: Intro-Trial;
+    /* font-family: Intro-Trial; */
+    font-family: 'Sen', sans-serif;
     background-color: #F9F2ED;
     margin: 0;
     padding: 0;
@@ -85,6 +112,7 @@ section{
 
 .home{
     background-color: #3AB0FF;
+    /* background-color: #F87474; */
 }
 .projects{
     background-color: #FFB562;
@@ -93,7 +121,11 @@ section{
     background-color: #F87474;
 }
 .resume{
-    background-color: #20D8A4;
+    background-color: #F87474;
+}
+
+.links{
+    margin-top: 20px;
 }
 
 .links li{
@@ -103,11 +135,17 @@ section{
 .links a{
     text-decoration: none;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
+    color: #4B4B4B;
+}
+
+
+.links a:hover{
+    color: #F87474;
 }
 
 .mid{
-    width: 54%;
+    width: 1100px;
     height: 470px;
     margin-top: 12em;
     margin-right: 5em;
@@ -155,18 +193,17 @@ section{
 .six{
     width: 270px;
     height: 60px;
-    right: 305px;
+    right: 290px;
     bottom: 615px;
     /* border: aquamarine 1px solid; */
 }
 .water{
-    background-image: url(/svg/water.svg);
-    width: 1025px;
-    height: 824px;
+    background-image: url(/svg/full_lake\(2\).png);
+    width: 1020px;
+    height: 820px;
     position:fixed;
     bottom: 0px;
     right: 0px;
-    overflow: visible;
     /* border: purple 1px solid; */
 }
 
@@ -263,6 +300,7 @@ span::before{
                 0 0 80px #00ccffde,
                 0 0 120px #044d91;
     border-radius: 50%;
+    border: #f9f2ed25 1px solid;
     pointer-events: none;
     transition: 2s;
 }
