@@ -129,6 +129,7 @@ section{
 
 .mid{
     width: 1100px;
+    width: 55%;
     height: 470px;
     margin-top: 12em;
     margin-right: 5em;
@@ -301,6 +302,7 @@ span:hover::before{
         width: 872px;
         height: 701px;
     }
+
 
     .pads{
         bottom: 10px;
