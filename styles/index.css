@@ -187,7 +187,11 @@ section{
     bottom: 615px;
     /* border: aquamarine 1px solid; */
 }
+
+
 .water{
+    display: flex;
+    margin-left: auto;
     background-image: url(../svg/water.svg);
     width: 1020px;
     height: 820px;
@@ -365,6 +369,8 @@ span:hover::before{
 }
 
 
+
+
 @media screen and (max-width: 1800px) {
 
     .water{
@@ -414,6 +420,7 @@ span:hover::before{
         width: 400px;
         height: 322px;
         bottom: 0;
+        right: 0;
     }
     .mid{
         width: 90%;
@@ -440,7 +447,7 @@ span:hover::before{
         scale: .45;
         position: relative;
         top: -140px;
-        left: -130px;
+        left: -40px;
     }
 
     .pads section{
