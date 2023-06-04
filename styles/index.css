@@ -409,7 +409,10 @@ span:hover::before{
 @media screen and (max-width: 1300px) {
 
     .water{
-        display: none;
+        /* display: none; */
+        width: 400px;
+        height: 322px;
+        bottom: 0;
     }
     .mid{
         width: 90%;
@@ -427,6 +430,27 @@ span:hover::before{
     .projButton{
         display: block;
     }
+
+    .pads{
+        scale: .45;
+        position: absolute;
+        top: -140px;
+        /* right: 0; */
+        /* bottom: 0; */
+        left: -130px;
+    }
+
+    .pads section{
+        display: none;
+    }
+
+   .mid{
+    margin-top: 7rem;
+   }
+
+   .projButton{
+    margin-top: 3rem;
+   }
 
     
 }

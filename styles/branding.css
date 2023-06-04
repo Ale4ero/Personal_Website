@@ -76,3 +76,25 @@ body{
     display: flex;
     gap: 100px;
 }
+
+.pageCont img{
+    width: max(60%, 400px);
+}
+
+@media screen and (max-width: 1300px) {
+    .pageTitle{
+        right: 10px;
+        top: 20px;
+        font-size: 1.2rem;
+    }
+
+    .backButton{
+        left: 10px;
+        top: 20px;
+    }
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}

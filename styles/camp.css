@@ -77,6 +77,19 @@ body{
 }
 
 .pageContainer img{
-    width: 650px;
+    width: max(40%, 400px);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1300px) {
+    .pageTitle{
+        right: 10px;
+        top: 20px;
+        font-size: 1.2rem;
+    }
+
+    .backButton{
+        left: 10px;
+        top: 20px;
+    }
 }
