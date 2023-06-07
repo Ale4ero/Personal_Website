@@ -276,6 +276,7 @@ body{
 
     .stripes{
         top: 40px;
+        display: none;
     }
 
     .stripe1{
@@ -309,6 +310,12 @@ body{
 
     .garageCont p{
         font-size: 25px;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
