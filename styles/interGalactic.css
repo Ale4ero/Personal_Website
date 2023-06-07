@@ -224,7 +224,7 @@ body{
 }
 
 .levelCont img{
-    width: max(55%, 400px);
+    width: max(55%, 350px);
 }
 
 .garageCont{
@@ -235,7 +235,7 @@ body{
 }
 
 .garageCont img{
-    width: max(100%, 400px);
+    width: max(90%, 350px);
 }
 
 .garageCont p{
@@ -277,6 +277,7 @@ body{
     .stripes{
         top: 40px;
         display: none;
+        position: absolute;
     }
 
     .stripe1{
@@ -316,6 +317,8 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        max-width: 100%;
+        overflow-x: hidden;
     }
 
 }
