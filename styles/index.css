@@ -40,7 +40,8 @@ a{
 body{
     /* font-family: Intro-Trial; */
     font-family: 'Sen', sans-serif;
-    background-color: #F9F2ED;
+    /* background-color: #F9F2ED; */
+    background-color: #faf0e9;
     margin: 0;
     padding: 0;
     
@@ -210,7 +211,7 @@ section{
     /* border: green 1px solid; */
 }
 
-.pad1{
+#pad1{
     background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
@@ -219,7 +220,7 @@ section{
     left: 0;
 }
 
-.pad2{
+#pad2{
     background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
@@ -229,7 +230,7 @@ section{
     transform: rotate(-50deg);
 }
 
-.pad3{
+#pad3{
     background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
@@ -239,7 +240,7 @@ section{
     transform: rotate(50deg);
 }
 
-.pad4{
+#pad4{
     background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
@@ -249,7 +250,7 @@ section{
     transform: rotate(150deg);
 }
 
-.pad5{
+#pad5{
     background-image: url(../svg/pad_1.svg);
     width: 133px;
     height: 128px;
@@ -258,6 +259,7 @@ section{
     left: 360px;
     transform: rotate(150deg);
 }
+
 
 
 .frog{

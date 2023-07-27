@@ -112,8 +112,9 @@ body{
     position: relative;
     border-top: 20px solid #E6ECC6;
     border-left: 20px solid #E6ECC6;
-    width: 1800px;
-    height: 100vh;
+    /* width: 1800px; */
+    width: max(90vw, 1700px);
+    height: 2600px;
     border-top-left-radius: 10px;
 }
 
@@ -121,8 +122,8 @@ body{
     position: relative;
     border-top: 20px solid #F49878;
     border-left: 20px solid #F49878;
-    width: 1800px;
-    height: 100vh;
+    width: 90vw;
+    height: 2600px;
     border-top-left-radius: 10px;
     left: -3px;
     top: -3px;
@@ -132,8 +133,8 @@ body{
     position: relative;
     border-top: 20px solid #DF396F;
     border-left: 20px solid #DF396F;
-    width: 1800px;
-    height: 100vh;
+    width: 90vw;
+    height: 2600px;
     border-top-left-radius: 10px;
     left: -3px;
     top: -3px;

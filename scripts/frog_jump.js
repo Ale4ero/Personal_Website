@@ -1,5 +1,5 @@
 
-//function the displays the mivement of the frog until frog reaches the required destination
+//function the displays the movement of the frog until frog reaches the required destination
 function disp(new_x, new_y){
     var step = 10;
     var y = document.getElementById('frog').offsetTop;
@@ -63,7 +63,7 @@ function run(){
     //document.getElementById('msg').innerHTML="X: "+new_x+" Y: "+new_y;
 
     //pad1
-    if(cur_y > pad1_y && cur_y < pad1_y+pad_height && cur_x > pad1_x && cur_x < pad1_x+pad_width){
+    if(cur_y > pad1_y && cur_y < pad1_y + pad_height && cur_x > pad1_x && cur_x < pad1_x+pad_width){
         //rand num 1 or 2
         num = Math.floor(Math.random() * 2)+1;
 
@@ -151,6 +151,8 @@ function run(){
         }
         
     }
+
+    
 
     //Testing
     //document.getElementById('msg2').innerHTML="New_X: "+new_x+" New_Y: "+new_y;

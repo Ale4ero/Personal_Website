@@ -181,11 +181,13 @@ a{
 }
 
 .problemContainer{
-    margin: 0 30px;
+    /* margin: 0 30px; */
+    margin: 0;
     display: flex;
-    gap: 100px;
+    gap: 0;
     margin-bottom: 70px;
     justify-content: center;
+    /* align-items: center; */
     /* max-width: 1600px; */
 }
 
@@ -193,6 +195,7 @@ a{
 .problemContainer p{
     line-height: 30px;
     width: max(70%, 350px);
+    max-width: 1200px;
 }
 
 .problemContainer .col{
@@ -225,7 +228,7 @@ a{
 .storyBoardInfo{
     margin: 0 auto;
     width: 90%;
-    /* max-width: 1600px; */
+    max-width: 1600px;
 }
 
 .storyBoardInfo p{
@@ -264,6 +267,7 @@ a{
     /* width: 580px; */
     width: max(30%, 400px);
     font-size: 30px;
+    max-width: 1000px;
 }
 .logoContainer{
     margin: 0 auto;
@@ -272,6 +276,7 @@ a{
     flex-direction: row;
     justify-content: center;
     gap: 100px;
+    max-width: 1600px;
 }
 
 .logoContainer img{
@@ -299,14 +304,17 @@ a{
 .layoutCont img{
     width: max(70%, 400px);
     margin: 0 auto;
+    max-width: 1500px;
 }
 
 .colorCont{
+    margin: 0 auto;
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 200px;
     margin-top: 10px;
+    max-width: 1600px;
 }
 
 .colorCont img{
@@ -395,9 +403,16 @@ a{
 
     .designInfo{
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto;
         gap: 20px;
         margin-bottom: 50px;
+        
+    }
+
+    .designInfo p{
+        align-items: center;
+        margin: 0 auto;
+        /* text-align: center; */
     }
 
     .mobileCont{
