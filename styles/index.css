@@ -217,7 +217,10 @@ section{
     position: absolute;
     top: 480px;
     left: 0;
+    transition: .5s;
 }
+
+
 
 #pad2{
     background-image: url(../svg/pad_1.svg);
@@ -227,6 +230,8 @@ section{
     top: 270px;
     left: 200px;
     transform: rotate(-50deg);
+    transition: 1s;
+    /* transition-timing-function: ease-in-out; */
 }
 
 #pad3{
@@ -237,6 +242,7 @@ section{
     top: 50px;
     left: 400px;
     transform: rotate(50deg);
+    transition: .5s;
 }
 
 #pad4{
@@ -247,6 +253,7 @@ section{
     top: 260px;
     left: 570px;
     transform: rotate(150deg);
+    transition: .5s;
 }
 
 #pad5{
@@ -257,6 +264,7 @@ section{
     top: 430px;
     left: 360px;
     transform: rotate(150deg);
+    transition: .5s;
 }
 
 

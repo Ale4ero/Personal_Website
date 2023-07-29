@@ -67,18 +67,34 @@ function run(){
         //rand num 1 or 2
         num = Math.floor(Math.random() * 2)+1;
 
-        //pad2
+        //if pad2
         if (num == 1){ 
             new_y = pad2_y + 30;
             new_x = pad2_x + 40;
             // console.log("NewX: "+new_x+" NewY: "+new_y);
             // console.log("Pad2X: "+pad2_x+" pad2Y: "+pad2_y);
             document.getElementById("frog").style.transform="rotate(50deg)";
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(10px) translateY(-5px) rotate(-50deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(-2px) rotate(-50deg)";
+            }, "500");
+            
+            
         }else{
-            //pad5
+            //else pad5
             new_y = pad5_y + 30;
             new_x = pad5_x + 40;
             document.getElementById("frog").style.transform='rotate(80deg)';
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateY(-5px) translateX(3px) rotate(150deg)";
+            },"200")
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateY(2px) translateX(-1px) rotate(150deg)";
+                document.getElementById("pad5").style.transition=".5s";
+            }, "600");
+            
         }
         
     }
@@ -87,17 +103,31 @@ function run(){
     
     //pad2
     else if(cur_y > pad2_y && cur_y < pad2_y+pad_height && cur_x > pad2_x && cur_x < pad2_x+pad_width){
+        
         num = Math.floor(Math.random() * 2)+1;
         if(num == 1){
             //pad3
             new_y = pad3_y + 30;
             new_x = pad3_x + 40;
             document.getElementById("frog").style.transform="rotate(40deg)";
+            setTimeout(()=>{
+                document.getElementById("pad3").style.transform="translateX(10px) translateY(-5px) rotate(50deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad3").style.transform="translateX(-5px) rotate(50deg)";
+            }, "500");
         }else{
             //pad5
             new_y = pad5_y + 30;
             new_x = pad5_x + 40;
             document.getElementById("frog").style.transform='rotate(150deg)';
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateX(10px) translateY(10px) rotate(150deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateX(-3px) rotate(150deg)";
+            }, "300");
+            
         }
         
     }
@@ -110,11 +140,23 @@ function run(){
             new_y = pad4_y + 30;
             new_x = pad4_x + 40;
             document.getElementById("frog").style.transform='rotate(150deg)';
+            setTimeout(()=>{
+                document.getElementById("pad4").style.transform="translateX(5px) translateY(10px) rotate(150deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad4").style.transform="translateY(-5px) rotate(150deg)";
+            }, "500");
         }else{
             //pad2
             new_y = pad2_y + 30;
             new_x = pad2_x + 40;
             document.getElementById("frog").style.transform="rotate(-150deg)";
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(-10px) translateY(5px) rotate(-50deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(5px) rotate(-50deg)";
+            }, "500");
         }
         
     }
@@ -127,11 +169,23 @@ function run(){
             new_y = pad5_y + 30;
             new_x = pad5_x + 40;
             document.getElementById("frog").style.transform = 'rotate(250deg)';
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateX(-5px) translateY(-10px) rotate(150deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad5").style.transform="translateY(5px) rotate(150deg)";
+            }, "500");
         }else{
             //pad3
             new_y = pad3_y + 30;
             new_x = pad3_x + 40;
             document.getElementById("frog").style.transform = "rotate(-45deg)";
+            setTimeout(()=>{
+                document.getElementById("pad3").style.transform="translateX(-5px) translateY(-10px) rotate(50deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad3").style.transform="translateY(5px) rotate(50deg)";
+            }, "500");
         }
         
     }
@@ -143,11 +197,23 @@ function run(){
             new_y = pad1_y + 30;
             new_x = pad1_x + 40;
             document.getElementById("frog").style.transform = 'rotate(270deg)';
+            setTimeout(()=>{
+                document.getElementById("pad1").style.transform="translateX(-10px) translateY(5px)";
+            },"200");
+            setTimeout(()=>{
+                document.getElementById("pad1").style.transform="translateX(2px)";
+            }, "500");
         }else{
             //pad2
             new_y = pad2_y + 30;
             new_x = pad2_x + 40;
             document.getElementById("frog").style.transform = "rotate(-50deg)";
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(-10px) translateY(-5px) rotate(-50deg)";
+            },"100");
+            setTimeout(()=>{
+                document.getElementById("pad2").style.transform="translateX(5px) rotate(-50deg)";
+            }, "500");
         }
         
     }
@@ -156,10 +222,6 @@ function run(){
 
     //Testing
     //document.getElementById('msg2').innerHTML="New_X: "+new_x+" New_Y: "+new_y;
-
     timer(new_x, new_y);
 
 }
-
-
-
