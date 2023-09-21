@@ -137,9 +137,9 @@ section{
     /* width: 1100px; */
     width: max(55%, 800px);
     height: 470px;
-    margin-top: 12em;
-    margin-right: 5em;
-    margin-left: 4em;
+    margin: 5em 5em 5em 4em;
+
+
 }
 
 .one{
@@ -377,6 +377,46 @@ span:hover::before{
     transition: 0s;
 }
 
+.contactDiv{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* border: #044d91 solid 1px; */
+    width: 450px;
+    margin-left: 3rem;
+}
+
+input, textarea{
+    display: block;
+    padding: .5rem;
+    width: 100%;
+    border: none;
+    background-color: white;
+}
+
+label{
+    display: block;
+    padding:.5rem 0;
+}
+
+.contactDiv button{
+    background-color: #F87474;
+    border: none;
+    width: auto;
+    border-radius: 2px;
+    padding: .3rem .6rem;
+    font-family: 'Sen', sans-serif;
+    margin: 1rem 0;
+}
+
+.contactDiv button:hover{
+    cursor: pointer;
+}
+
+.contactDiv h3{
+    margin: 0;
+    margin-top: 1.5rem;
+}
 
 
 
@@ -430,6 +470,7 @@ span:hover::before{
         height: 322px;
         bottom: 0;
         right: 0;
+        margin-top: 15rem;
     }
     .mid{
         width: 90%;
@@ -469,6 +510,14 @@ span:hover::before{
 
    .projButton{
     margin-top: 3rem;
+   }
+
+   .contactDiv{
+    margin-left: 0;
+    margin-top: 2rem;
+    width:auto;
+    position: relative;
+    margin-bottom: 100rem;
    }
 
     
