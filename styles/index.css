@@ -43,6 +43,7 @@ body{
     background-color: #faf0e9;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     
 }
 body h1{
@@ -138,6 +139,11 @@ section{
     width: max(55%, 800px);
     height: 470px;
     margin: 5em 5em 5em 4em;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
 
 
 }
@@ -383,7 +389,7 @@ span:hover::before{
     display: flex;
     flex-direction: column;
     /* border: #044d91 solid 1px; */
-    width: 450px;
+    width: 550px;
     margin-left: 3rem;
 }
 
@@ -417,6 +423,10 @@ label{
 .contactDiv h3{
     margin: 0;
     margin-top: 1.5rem;
+}
+
+.contactDiv textarea{
+    resize: none;
 }
 
 

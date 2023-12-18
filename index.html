@@ -69,7 +69,7 @@
                 </div>
             </a>
 
-            <div class="contactDiv">
+            <!-- <div class="contactDiv">
                 <h3>Contact Me!</h3>
                 <form action="https://formsubmit.co/ale.forero10@gmail.com" method="POST">
                     <label for="name">Name</label>
@@ -81,7 +81,7 @@
                     <input type="hidden" name="_captcha" value="false">
                     <button type="submit" onsubmit="alert('Message sent.')">Send</button>
                </form>
-            </div>
+            </div> -->
 
             
         </div>
@@ -1005,7 +1005,22 @@
 
         
         
-        
+        <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "ale.forero10@gmail.com",
+                    Password : "1B8685DB57C44C8B565275D47B313F2E05B3",
+                    To : 'ale.forero10@gmail.com',
+                    From : "ale.forero10@gmail.com",
+                    Subject : "New Contact Form",
+                    Body : "And this is the body"
+                }).then(
+                message => alert(message)
+                );
+            }
+        </script> -->
         
     </body>
 </html>
