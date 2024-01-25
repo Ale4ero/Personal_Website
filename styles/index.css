@@ -4,6 +4,10 @@
     font-size: 'Sen', sans-serif;
 }
 
+header{
+    z-index: 100;
+}
+
 .pageTitle{
     position: absolute;
     left: 20px;
@@ -75,6 +79,8 @@ section{
     text-align: center;
     margin-top: 0;
     padding-top: 10px;
+    position: relative;
+    z-index: 100;
 }
 
 .nav li{
@@ -144,7 +150,7 @@ section{
     /* align-items: center; */
     justify-content: center;
     gap: 20px;
-
+    z-index: 0;
 
 }
 
@@ -206,6 +212,7 @@ section{
     bottom: 0px;
     right: 0px;
     /* border: purple 1px solid; */
+    z-index: 0;
 }
 
 .pads{
