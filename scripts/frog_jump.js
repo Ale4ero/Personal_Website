@@ -7,19 +7,19 @@ function disp(new_x, new_y){
 
     
     //if current y position is greater than the wanted y position, decrease current y
-    if(y > new_y){
+    if(y > new_y + step){
         y = y - step;
         document.getElementById('frog').style.top = y +"px";
-    }else if(y < new_y){
+    }else if(y < new_y - step){
         y = y + step;
         document.getElementById('frog').style.top=y+"px";
     }
 
     //if current x position is less than the wanted x position, increase current x
-    if(x < new_x){ 
+    if(x < new_x - step){ 
         x = x + step;
         document.getElementById('frog').style.left=x+"px";
-    }else if( x > new_x){
+    }else if( x > new_x + step){
         x = x - step;
         document.getElementById('frog').style.left=x+"px";
     }

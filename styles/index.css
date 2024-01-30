@@ -221,7 +221,7 @@ section{
     position: fixed;
     bottom: 50px;
     right: 50px;
-    /* border: green 1px solid; */
+    /* border: red 1px solid; */
 }
 
 #pad1{
@@ -229,7 +229,7 @@ section{
     width: 133px;
     height: 128px;
     position: absolute;
-    top: 480px;
+    top: 80%;
     left: 0;
     transition: .5s;
 }
@@ -241,8 +241,8 @@ section{
     width: 133px;
     height: 128px;
     position: absolute;
-    top: 270px;
-    left: 200px;
+    top: 50%;
+    left: 30%;
     transform: rotate(-50deg);
     transition: 1s;
     /* transition-timing-function: ease-in-out; */
@@ -253,8 +253,8 @@ section{
     width: 133px;
     height: 128px;
     position: absolute;
-    top: 50px;
-    left: 400px;
+    top: 10%;
+    left: 55%;
     transform: rotate(50deg);
     transition: .5s;
 }
@@ -264,8 +264,8 @@ section{
     width: 133px;
     height: 128px;
     position: absolute;
-    top: 260px;
-    left: 570px;
+    top: 40%;
+    left: 80%;
     transform: rotate(150deg);
     transition: .5s;
 }
@@ -275,8 +275,8 @@ section{
     width: 133px;
     height: 128px;
     position: absolute;
-    top: 430px;
-    left: 360px;
+    top: 80%;
+    left: 60%;
     transform: rotate(150deg);
     transition: .5s;
 }
@@ -289,8 +289,8 @@ section{
     width: 59px;
     height: 62px;
     position: absolute;
-    top: 520px;
-    left: 30px;
+    top: 85%;
+    left: 5%;
     
 }
 
@@ -447,6 +447,7 @@ label{
 
 
     .pads{
+        /* border: solid red 1px; */
         bottom: 10px;
         right: 0;
     }
@@ -477,6 +478,21 @@ label{
         width: 200px;
         bottom: 490px;
     }
+}
+
+@media screen and (max-width: 1400px) {
+    .water{
+        width: 772px;
+        height: 620.6px;
+    }
+
+    .pads{
+        /* border: 1px solid red; */
+        width: 631px;
+        height: 512px;
+    }
+
+
 }
 
 @media screen and (max-width: 1300px) {
